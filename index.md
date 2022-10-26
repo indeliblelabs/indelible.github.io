@@ -4,28 +4,26 @@ layout: homepage
 keywords:
 
 # Hero section
-title: Project name
-description: Project description
+title: Indelible Labs Wiki
+image: /theme/assets/images/layout/brandmark.svg
+description: The First Platform for On-Chain NFT Collections
 buttons:
-    - content: Button
-      url: '#'
-      external_url: false
-    - icon: github
-      content: Button with icon
-      url: '#'
+    - content: Website
+      url: 'https://indelible.xyz'
       external_url: true
-
-# Author box
-author:
-    title: About Author
-    title_url: '#'
-    external_url: true
-    description: Author description
+    - icon: github
+      content: GitHub
+      url: 'https://github.com/indeliblelabs/indeliblelabs.github.io'
+      external_url: true
 
 # Grid navigation
 grid_navigation:
-    - title: Grid navigation
-      excerpt: Section description
+    - title: Introduction
+      excerpt: Here are some things you need to know before getting started.
       cta: Read more
-      url: '#'
+      url: '/pages/introduction'
+    - title: Create a Collection
+      excerpt: Creating a collection is simple, once you are connected and get presented with the initial screen.
+      cta: Read more
+      url: '/pages/create-a-collection'
 ---

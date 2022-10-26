@@ -8,6 +8,13 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-7">
+						<div>
+							{% if page.image %}
+								<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/" style="text-decoration:none;border:none;">
+									<img style="height:100px;margin-bottom:26px;" src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.image }}">
+								</a><!-- /.site-header__logo -->
+							{% endif %}
+						</div>
 						<div class="align-container" data-mh>
 							<div class="align-inner">
 								{% if page.title %}

@@ -8,7 +8,7 @@ $color-white: #fff !default;
 $color-black: #000 !default;
 $color-dark: #333 !default;
 $color-dark-blue: #253951 !default;
-$color-yellow: #f6d000 !default;
+$color-yellow: #ffd08d !default;
 
 // Base
 $color-h2-border: #dadada !default;
@@ -50,8 +50,22 @@ $color-theme-red: #FFECE6 !default;
 $color-theme-yellow: #FCFDE8 !default;
 
 /* ----- Font families ----- */
-$font-family-primary: 'Noto Sans', sans-serif !default;
-$font-family-secondary: 'Montserrat', sans-serif !default;
+@font-face {
+  font-family: "Gilroy";
+  src: url("/theme/assets/fonts/gilroy-medium-webfont.woff2") format("woff2"),
+    url("/theme/assets/fonts/gilroy-medium-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("/theme/assets/fonts/gilroy-extrabold-webfont.woff2") format("woff2"),
+    url("/theme/assets/fonts/gilroy-extrabold-webfont.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+$font-family-primary: 'Gilroy', sans-serif !default;
+$font-family-secondary: 'Gilroy', sans-serif !default;
 $font-family-monospace: 'Source Code Pro', monospace !default;
 
 /* ----- Font sizes ----- */
