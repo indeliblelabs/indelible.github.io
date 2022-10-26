@@ -5,6 +5,7 @@ keywords:
 
 # Hero section
 title: Indelible Labs Wiki
+hide_prefix: true
 image: /theme/assets/images/layout/brandmark.svg
 description: The First Platform for On-Chain NFT Collections
 buttons:
