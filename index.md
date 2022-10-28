@@ -27,4 +27,8 @@ grid_navigation:
       excerpt: Creating a collection is simple, once you are connected and get presented with the initial screen.
       cta: Read more
       url: '/pages/create-a-collection'
+    - title: Deploying
+      excerpt: Deploying is the final step once your collection is 100% ready.
+      cta: Read more
+      url: '/pages/deploying'
 ---
