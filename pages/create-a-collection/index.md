@@ -128,6 +128,7 @@ In order to save traits, the trait rarity needs to be declared.
 
 ## Immutable Attributes
 
+THESE ATTRIBUTES CAN NOT EVER BE CHANGED AFTER DEPLOY:
 - Max Supply
 - Mint Price (For Public Mint)
-- Recipients
+- Recipients (including charity organizations)
