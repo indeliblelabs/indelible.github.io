@@ -16,6 +16,9 @@ buttons:
       content: GitHub
       url: 'https://github.com/indeliblelabs/indeliblelabs.github.io'
       external_url: true
+    - content: FAQ
+      url: 'https://indelible.xyz/faq'
+      external_url: true
 
 # Grid navigation
 grid_navigation:
@@ -31,4 +34,8 @@ grid_navigation:
       excerpt: Deploying is the final step once your collection is 100% ready.
       cta: Read more
       url: '/pages/deploying'
+    - title: Manage Your Contract
+      excerpt: Interact with your contract to manage different aspects of your minting process and more.
+      cta: Read more
+      url: '/pages/manage-your-contract'
 ---

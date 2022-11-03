@@ -26,7 +26,12 @@ Our mission is to make on-chain NFT collections easier as well as affordable to 
 
 Currently the platform is token gated by [OnChainKevin (OCK)](https://opensea.io/collection/onchainkevin) meaning that to connect to the Indelible Labs tool, you must have one of these tokens in that specific wallet you will connect with.
 
-Other benefits that [OCK](https://opensea.io/collection/onchainkevin) holders get is being automatically added to every allow list from every collection that comes out of indelible labs ***(must hold the token for 15 days in your minting wallet)***, specific roles in our amazing [Discord community](https://discord.gg/indelible).
+### Benefits of OCK Token
+
+- Access to Indelible Labs No-Code tool.
+- Automatically added to every allow list from every collection that comes out of indelible labs ***(must hold the token for 15 days in your minting wallet)***
+- specific roles in our amazing [Discord community](https://discord.gg/indelible).
+
 
 ## Features
 
@@ -42,7 +47,7 @@ Other benefits that [OCK](https://opensea.io/collection/onchainkevin) holders ge
 - Minting page.
 - Contract owner UI to interact with the most important aspects of your contracts.
 
-and so much more…
+and more…
 
 ## Terminologies
 
