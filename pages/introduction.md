@@ -30,7 +30,7 @@ Currently the platform is token gated by [OnChainKevin (OCK)](https://opensea.io
 
 - Access to Indelible Labs No-Code tool.
 - Automatically added to every allow list from every collection that comes out of indelible labs ***(must hold the token for 15 days in your minting wallet)***
-- specific roles in our amazing [Discord community](https://discord.gg/indelible).
+- Specific roles in our amazing [Discord community](https://discord.gg/indelible).
 
 
 ## Features

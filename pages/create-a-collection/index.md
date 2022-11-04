@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Create a Collection
-description: Creating a collection is simple, once you are connected and get presented with the initial screen.
+description: Once you are connected and get presented with the initial screen, creating a collection is simple.
 
 # Micro navigation
 micro_nav: true
@@ -23,7 +23,7 @@ page_nav:
 
 ## Create a Collection
 
-Creating a collection is simple, once you are connected and get presented with the initial screen. You can just click on “New +” button.
+Creating a collection is simple. Once you are connected and get presented with the initial screen, you can just click on “New +” button.
 
 ![create-collection.png](./assets/create-collection.png)
 
@@ -31,9 +31,9 @@ This will take you to the “New Collection” page where you need to fill out t
 
 ## Settings
 
-The settings of your collection are a crucial part of the process since it will dictate all the configuration, information and behavior of your contract which for some cases, are permanent changes that cannot be changed once the contract is deployed. [***See the list of immutable attributes.***](#immutable-attributes)
+The settings of your collection are a crucial part of the process since it will dictate all the configuration, information, and behavior of your contract, which for some cases are permanent changes that cannot be changed once the contract is deployed. [***See the list of immutable attributes.***](#immutable-attributes)
 
-New collections are required to fill some basic information **(every information filled in ‘New Collection Settings’ can be edited after the collection is created)**:
+New collections are required to fill some basic information **(every information filled in "New Collection Settings" can be edited after the collection is created)**:
 
 ![settings.png](./assets/settings.png)
 
@@ -64,57 +64,57 @@ To post your upcoming collection announcement simply click on “Post Upcoming L
 
 ![upcoming-button.png](./assets/upcoming-button.png)
 
-You will immediately see a modal where you can are required to input the future date of your release and simply click “Publish”.
+You will immediately see a modal where you can are required to input the future date of your release and simply click “Publish.”
 
 ## Recipients
 
-Recipients are the wallets that will be receiving the ETH earnings from the token mint or other earnings from the contract. This is specially important for collections that are planning a paid mint.
+Recipients are the wallets that will be receiving the ETH earnings from the token mint or other earnings from the contract, which is specially important for collections that are planning a paid mint. This allows for trust free partnerships with other individuals.
 
-This allows for trust free partnerships with other individuals, upon withdraw of the earning from the contract, the contract will automatically send the percentage in ETH to the wallet according to what was specified here. The default settings is your own wallet with 100% of the earnings **AFTER** the platform’s fee. When adding other recipient wallets your percentage will be automatically subtracted.
+Upon withdraw of the earning from the contract, the contract will automatically send the percentage in ETH to the wallet according to what was specified here. The default settings wallet address is your own wallet with 100% of the earnings **AFTER** the platform’s fee. When adding other recipient wallets your percentage will be automatically subtracted.
 
-**Note:** This does not apply to secondary royalty sales
+**Note:** This does not apply to secondary royalty sales.
 
 ### Charity
 
 This feature is powered by [The Giving Block](https://thegivingblock.com/)
 
-Adding a charity organization inside of recipients is incredibly easy, whether you want 100% of your earnings to go to a charity organization or a specified percentage. Just click on “Add Charity” in the recipient section search for the organization of your choice and simply click “Add” and that organization the percentage you desire.
+Adding a charity organization inside of recipients is incredibly easy, whether you want 100% of your earnings to go to a charity organization or a specified percentage. Just click on “Add Charity” in the recipient section, search for the organization of your choice, simply click “Add”, and add to that organization the percentage you desire to give.
 
 ## Allow List
 
-As traditionally known, when toggled on this enabled you to add your own list of wallet address to be included in the allow list portion of the minting process when the contract is deployed. 
+When toggled on, this enables you to add your own list of wallet addresses to be included in the allow list portion of the minting process when the contract is deployed. 
 
 ![allow-list.png](./assets/allow-list.png)
 
 The Addresses section is where you can add the wallet addresses for your allow list ***(each address needs to be in their own line).***
 
-Mint price is the ETH price for the allow list wallets this **CAN** be different than the public mint price in the settings section.
+"Mint price" is the ETH price for the allow list wallets (this **CAN** be different than the public mint price in the settings section).
 
-Max Mints Per Address is the maximum amount of tokens an individual wallet can mint from the contract in the context of allow list mint. This also can be different than the “Max mints per address” in the settings section.
+"Max Mints Per Address" is the maximum amount of tokens an individual wallet can mint from the contract in the context of allow list mint. This also can be different than the “Max Mints Per Address” in the settings section.
 
 ## Assets
 
-This section is simply for you to upload a profile and banner image to your collection, the profile picture gets added to the contractURI of the contract. These are used to best showcase your collection. The profile picture is best as a square image and the banner is optimized for an aspect ratio of 4.3 (e.g. 430x100 px, 1720x400 px)
+This section is simply for you to upload a profile and banner image to your collection. The profile picture gets added to the contractURI of the contract. These are used to best showcase your collection. The profile picture is best as a square image and the banner is optimized for an aspect ratio of 4.3 (e.g. 430x100 px, 1720x400 px).
 
 ## Layers and Traits
 
-Found in the collection menu items next to settings. Layers are sort of the grouped category of ‘things’ that compose the Art and the traits are the items inside that grouped category. For example if we look at any [OCK NFT](https://opensea.io/collection/onchainkevin) and look at the properties section, we see something like this:
+Found in the collection menu items next to settings. Layers can be thought of as the categories of things that compose the art, and the traits are the items inside that category. For example, if we look at any [OCK NFT](https://opensea.io/collection/onchainkevin) and look at the properties section, we see something like this:
 
 ![nft.png](./assets/nft.png)
 
 ![nft-properties.png](./assets/nft-properties.png)
 
-The **Layers** here are: Background, Eyes, Face, Head, Lasers, Mouth, Nose, Shirt and Skin. Where as the **Traits** here are: Gray, Beedy Bold, Glasses Red, Brain Full, Blue, Tongue Out, Downturned, Gray, Green. 
+The **Layers** here are: background, eyes, face, head, lasers, mouth, nose, shirt, and skin. Whereas the **Traits** are: gray, beedy bold, glasses red, brain full, blue, tongue out, downturned, gray, and green.
 
 ### Layers
 
-To add all your layers you just simply type the name of your layers you are planning to have in your collections, you can add more layers up to 15 in total. You can change the sorting on the layers by dragging and dropping from the dotted icons left to the text box.
+To add all your layers, you just simply type the name of your layers you are planning to have in your collections. You can add more layers with a limit of 15 in total. You can change the sorting on the layers by dragging and dropping from the dotted icons left of the text box.
 
 ![add-layers.gif](./assets/add-layers.gif)
 
 ### Traits
 
-Traits for each layer can be uploaded by going to the traits of the selected layer (clicking on the arrow of a selected layer) and drag and dropping the traits.
+Traits for each layer can be uploaded by going to the traits of the selected layer (clicking on the arrow of a selected layer) and dragging and dropping the traits.
 
 ![add-traits.gif](./assets/add-traits.gif)
 
@@ -122,9 +122,10 @@ In order to save traits, the trait rarity needs to be declared.
 
 ![trait.png](./assets/trait.png)
 
-1. **Rarity:** The lower the number of trait the more rare the trait will be. All traits ***inside*** of a layer need to add up to the **Max Supply** number that was inputted in settings.
-2. **Linked Traits(Dropdown):** Traits can be linked to other traits in other layers in order for them to appear together exclusively. For example let’s say we want “Gold” skin to only have a Head layer traits of ‘Third eye’. Then on this dropdown we would search for ‘Third eye’. a trait can be linked to multiple other traits for example if we have “Third Eye”, “Monkey Hat” and “Flames” as our traits inside of “Head” Layer and we want “Gold” Skin to NOT every show up together with “Third Eye” we can select “Gold” skin as a linked trait for both “Monkey Hat” and “Flames” and this would make it to where the in the entire collection every time a Gold skin is generated it would only ever have either a “Monkey Hat” or “Flames”.
-3. **Hide:** The eye-icon button for every trait will hide that trait from the metadata, meaning the trait will still show up in the image if it is selected but the properties description of that NFT will not display that trait.
+1. **Rarity:** The lower the number of trait, the more rare the trait will be. All traits ***inside*** of a layer need to add up to the "**Max Supply**" number that was inputted in settings.
+2. **Linked Traits (Dropdown):** Traits can be linked to other traits in other layers in order for them to appear together exclusively. For example, let’s say we want “gold” skin to only have a head layer trait of ‘third eye’. Then on this dropdown that belongs to "gold" we would search for ‘third eye’ and this will make it to where everyone that gets "gold" will have a "third eye".
+A trait can be linked to multiple other traits. For example, if we have “third eye”, “monkey hat”, and “flames” as our traits inside of “head” Layer and we want “gold” Skin to show up with "monkey hat" and "flames", we can select “gold” skin as a linked trait for both “monkey hat” and “flames”. This would make it to where every time “monkey hat” or “flames” is selected the skin would be always be gold.
+3. **Hide:** The eye-icon button for every trait will hide that specific trait from the metadata; meaning the trait will still show up in the image if it is selected, but the properties' description of that NFT will not display that trait.
 
 ## Immutable Attributes
 
