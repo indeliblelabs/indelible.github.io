@@ -24,13 +24,15 @@ page_nav:
 
 Our mission is to make on-chain NFT collections easier as well as affordable to create, utilize, and grow while simultaneously educating the public about on-chain technology.
 
-Currently the platform is token gated by [OnChainKevin (OCK)](https://opensea.io/collection/onchainkevin) meaning that to connect to the Indelible Labs tool, you must have one of these tokens in that specific wallet you will connect with.
+The platform is open for anyone to use. There are premium features in the app that allow you to unlock additional feature to enhance your collection and community, most of these premium features are free for [Indelible Pro](https://app.indelible.xyz/pro) holders.
 
-### Benefits of OCK Token
+### Benefits of Indelible Pro
 
-- Access to Indelible Labs No-Code tool.
-- Automatically added to every allow list from every collection that comes out of indelible labs ***(must hold the token for 15 days in your minting wallet)***
-- Specific roles in our amazing [Discord community](https://discord.gg/indelible).
+- 50% discount on primary sales fees.
+- Custom link for minting site.
+- Off-chain hosting for rending on other platforms (e.g. Twitter).
+- Get the automatically added to allow lists.
+...For the full list of Pro benefits and to learn about whats coming next, head over to [app.indelible.xyz/pro](https://app.indelible.xyz/pro)
 
 
 ## Features
@@ -45,6 +47,8 @@ Currently the platform is token gated by [OnChainKevin (OCK)](https://opensea.io
 - Link traits together.
 - 1 of 1s.
 - Minting page.
+- Custom link for minting page.
+- Off-chain hosting for rending on other platforms (e.g. Twitter).
 - Contract owner UI to interact with the most important aspects of your contracts.
 
 and more…
