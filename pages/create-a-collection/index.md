@@ -70,7 +70,7 @@ You will immediately see a modal where you can are required to input the future 
 
 Recipients are the wallets that will be receiving the ETH earnings from the token mint or other earnings from the contract, which is specially important for collections that are planning a paid mint. This allows for trust free partnerships with other individuals.
 
-Upon withdraw of the earning from the contract, the contract will automatically send the percentage in ETH to the wallet according to what was specified here. The default settings wallet address is your own wallet with 100% of the earnings **AFTER** the platform’s fee. When adding other recipient wallets your percentage will be automatically subtracted.
+Upon withdraw of the earning from the contract, the contract will automatically send the percentage in ETH to the wallet according to what was specified here. The default settings wallet address is your own wallet with 100% of the earnings. When adding other recipient wallets your percentage will be automatically subtracted.
 
 **Note:** This does not apply to secondary royalty sales.
 

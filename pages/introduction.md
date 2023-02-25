@@ -28,10 +28,10 @@ The platform is open for anyone to use. There are premium features in the app th
 
 ### Benefits of Indelible Pro
 
-- 50% discount on primary sales fees.
 - Custom link for minting site.
 - Off-chain hosting for rending on other platforms (e.g. Twitter).
 - Get the automatically added to allow lists.
+- Zero fee minting.
 ...For the full list of Pro benefits and to learn about whats coming next, head over to [app.indelible.xyz/pro](https://app.indelible.xyz/pro)
 
 
