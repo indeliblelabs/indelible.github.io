@@ -37,7 +37,7 @@ What you will see right after succesfully deploying is the following:
 
 ![upload-layers.png](./assets/upload-layers.png)
 
-Here you must individually click on each “Upload To Contract” button for every layer, therefore writing all the traits for that layer into your contract. Once all these are uploaded successfully, your art in its entirety is now on-chain.
+Here you must individually click on each “Upload To Contract” button for every layer, therefore writing all the traits for that layer into your contract. Once all these are uploaded successfully, your art is now entirely on-chain.
 
 # General Management
 
