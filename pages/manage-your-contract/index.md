@@ -31,19 +31,19 @@ For quick reference, here are the interactions you need to do with your contract
 
 # Uploading the layers
 
-After the deployment is successful, you will immediately be taken to the specific page to manage your contract and be presented with the ability to upload your layers to your contract that is now in the Ethereum blockchain. However, nothing else can be done without first completing the upload of your layers. As a way to mitigate heavy transactions and avoid uploading too much data into the Ethereum blockchain all at once, your art is not uploaded to the contract at the same time the contract got deployed.
+After the deployment is successful, you will immediately be taken to the specific page to manage your contract and be presented with the ability to upload your layers to your contract that is now in the Ethereum blockchain. Prior to proceeding, it is essential to finish the upload of your layers. No other actions can be taken until this upload is completed. To manage heavy transactions and avoid uploading too much data into the Ethereum blockchain all at once, your art is not immediately uploaded to the contract upon deployment.
 
 What you will see right after succesfully deploying is the following:
 
 ![upload-layers.png](./assets/upload-layers.png)
 
-Here you must individually click on each “Upload To Contract” button for every layer, therefore writing all the traits for that layer into your contract. Once all these are uploaded successfully, your art is now entirely on-chain.
+At this stage, you should click on the "Upload To Contract" button for each individual layer, thereby effectively writing all the traits for that layer into your contract. Once all uploads are successfully completed, your art will be fully on-chain.
 
 # General Management
 
-Indelible Labs offers all the interface necessary for the management of your contract to be easy. Let's look at all the possible interactions you can do.
+Indelible Labs provides a user-friendly interface that simpliefies contract management. Let's look at the possible interactions available to you.
 
-Once you uploaded all your layers the following options are what you would see and use to manage your contract going forward:
+After all your layers have been uploaded, you'll gain access to the following options for managing your contract:
 
 ![general-manage-contract.png](./assets/general-manage-contract.png)
 
@@ -53,11 +53,11 @@ If you used the "Linked trait" feature on any of the traits in your collection, 
 
 ## Upload Allow List
 
-Use this to upload your list. Currently the allow list does not upload along with the contract so this is an interaction you must do if you have an allow list and you want those wallets to mint.
+Use this button to upload your list. Currently the allow list does not automatically upload along with the contract. Therefore, you must interact with this feature to enable those wallets on the allow list to perform minting.
 
 ## Enable/Disable Allow List Mint
 
-After you upload your allow list to your contract. To open minting up to those allowed wallets, click this to enable. You can always disable after if you want to close it up again.
+After uploading your allow list to your contract, you can click this button to enable minting for the allowed wallets. If needed, you can disable it later to close access again. 
 
 ## Enable/Disable Public Mint
 
@@ -69,26 +69,28 @@ Controls the allow list price per token to be minted.
 
 ## Allow List Max Per Address
 
-Controls the max amount of tokens a single allow list address can mint.
+This section controls the max amount of tokens a single allow list address can mint.
 
 ## Mint
 
-This is for you to exclusively mint from the contract. There are many reasons you might want to do this, such as airdrop, mint the first N number of tokens, or you simply just want to see your art on mainnet first.
+This features allows you to exclusively mint from the contract. There are several reasons you might want to choose this option, such as airdropping, minting the first N number of tokens, or simply seeing your art on the mainnet first.
 
 ## Withdraw
 
-For any collection that earn ETH on mint. You can trigger the withdraw method with this button to collect your share from the contract’s available balance at any given time.
+For any collection that earns ETH on mint, you can trigger the withdraw method with this button to collect your share from the contract’s available balance at any given time.
 
 ## Enable Off-Chain Rendering
 
-You must toggle this on to allow the owners of the tokens to have the ability to toggle off-chain rendering for their particular token.
+Toggle this on to let token owners eneable off-chain rendering for their particular token. 
 
-Currently Indelible Labs offers free hosting for the images of your collection if it is desired. Note that this is subject to change.
+Presently, Indelible Labs offers free hosting for the images of your collection if it is desired. Note that this is subject to change.
 
-Your contract is designed to return either the on-chain image or an off chain url in the `tokenURI` method if this is enabled by the owner of the token. The number one reason for this at this current time is to be able to display the NFT in twitter PFP.
+If this feature is enabled by the owner of the token, you contract is designed to offer either the on-chain image or an off-chain URL through the `tokenURI` method. The primary purpose of enabling this feature, at this current time, is to allow the display of the NFT in Twitter PFP. 
 
 ## Verify
 
-This is done automatically upon deploy, but because we work with multiple external services and APIs it is not guaranteed to succeed. Although your contract will be uploaded, the verification might fail in which case you can always attempt to verify here. To know whether your contract has been verified or not by Etherscan, simply go to your contract on Etherscan and click on the contract tab. If your contract is **NOT** verified, you should see this.
+Upon deployment, the process of contract verification is automated. However, but due to our integration with various external services and APIs, successful verification is not guaranteed.
+
+In such cases, you can try verifying it again here. To check if your contract is verified by Etherscan, visit your contract on their platform and click on the contract tab. If your contract is **NOT** verified, you should see this statuts.
 
 ![etherscan-unverified.png](./assets/etherscan-unverified.png)
