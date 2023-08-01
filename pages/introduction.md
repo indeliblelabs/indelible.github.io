@@ -24,7 +24,7 @@ page_nav:
 
 Our mission is to make on-chain NFT collections easier as well as affordable to create, utilize, and grow while simultaneously educating the public about on-chain technology.
 
-The platform is open for anyone to use. There are premium features in the app that allow you to unlock additional feature to enhance your collection and community, most of these premium features are free for [Indelible Pro](https://app.indelible.xyz/pro) holders.
+The platform is open for anyone to use. There are premium features in the app that allow you to unlock additional feature to enhance your collection and community. Most of of these premium features are free for [Indelible Pro](https://app.indelible.xyz/pro) holders.
 
 ### Benefits of Indelible Pro
 
