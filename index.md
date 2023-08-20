@@ -26,7 +26,7 @@ grid_navigation:
       excerpt: Here are some things you need to know before getting started.
       cta: Read more
       url: '/pages/introduction'
-    - title: Create a Collection
+    - title: Creating a Collection
       excerpt: Creating a collection is simple, once you are connected and get presented with the initial screen.
       cta: Read more
       url: '/pages/create-a-collection'
@@ -34,7 +34,7 @@ grid_navigation:
       excerpt: Deploying is the final step once your collection is 100% ready.
       cta: Read more
       url: '/pages/deploying'
-    - title: Manage Your Contract
+    - title: Managing Your Contract
       excerpt: Interact with your contract to manage different aspects of your minting process and more.
       cta: Read more
       url: '/pages/manage-your-contract'

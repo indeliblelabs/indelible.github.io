@@ -5,7 +5,7 @@ keywords:
 comments: false
 
 # Hero section
-title: Manage Your Contract
+title: Managing Your Contract
 description: Interact with your contract to manage different aspects of your minting process and more.
 
 # Micro navigation
@@ -18,79 +18,87 @@ page_nav:
         url: '/pages/deploying'
 ---
 
-# Overview
+## Overview
 
-Your contract deployed successfully! After this happens, there are some crucial things you need to manage in your contract in order for the world to start minting your tokens.
+Congratulations! Your contract deployed successfully! To enable the world to mint your tokens, follow these essential steps:
 
-For quick reference, here are the interactions you need to do with your contract before anyone can mint:
+1. Click "Upload to Contract" to upload all layers.
+2. If you have declared any "Link Traits," upload them.
+3. If "Allow list" is activated, upload the list to your contract.
+4. Toggle the desired minting option.
 
-- Upload all layers.
-- If you declared any "Link traits", upload the link traits.
-- If you enabled “Allow list” for your contract, you must upload the "Allow list" to your contract.
-- Toggle the desired minting option.
+### Generative Colletion's Contract Managament 
 
-# Uploading the layers
+#### Uploading the Layers
 
-After the deployment is successful, you will immediately be taken to the specific page to manage your contract and be presented with the ability to upload your layers to your contract that is now in the Ethereum blockchain. Prior to proceeding, it is essential to finish the upload of your layers. No other actions can be taken until this upload is completed. To manage heavy transactions and avoid uploading too much data into the Ethereum blockchain all at once, your art is not immediately uploaded to the contract upon deployment.
+After a successful deployment, you will be immediately directed to a dedicated page for managing your contract. 
 
-What you will see right after succesfully deploying is the following:
+Here, you can upload the layers to your contract on the Ethereum blockchain. **Before moving forward, ensure all layers are uploaded. No further actions are allowed until this step is complete.** This process prevents overwhelming the blockchain with too much data at once, so your art is not immediately added to the contract upon deployment.
 
-![upload-layers.png](./assets/upload-layers.png)
+Upon deployment, you will see a list of your layers. At this point, click "Upload To Contract" for each layer. This writes the traits for that layer into your contract. *After completing this step, the attention icon will change to a checkmark.* Once all layers are uploaded, your art will be fully on-chain (See Figure 16). 
 
-At this stage, you should click on the "Upload To Contract" button for each individual layer, thereby effectively writing all the traits for that layer into your contract. Once all uploads are successfully completed, your art will be fully on-chain.
 
-# General Management
+![Figure16.webp](./assets/Figure16.webp)
+<p style="color: #706e6e; font-size: 14px"><i><strong>Figure 16</strong></i> Demonstrates the list of layers and where to click to upload them before opening the public minting.</p>
 
-Indelible Labs provides a user-friendly interface that simpliefies contract management. Let's look at the possible interactions available to you.
 
-After all your layers have been uploaded, you'll gain access to the following options for managing your contract:
+#### General Management
 
-![general-manage-contract.png](./assets/general-manage-contract.png)
+Indelible Labs offers a user-friendly interface to make contract management a breeze. Here's a quick guide to the functionalities available to you:
 
-## Upload Linked Traits
+#### After Uploading Layers:
+You will be able to choose your contract settings (See Figure 17). 
 
-If you used the "Linked trait" feature on any of the traits in your collection, you **MUST** click and upload your linked traits to the smart contract **prior** to any minting if you do not want undesired outcomes on the art.
+![Figure17.png](./assets/Figure17.png)
+<p style="color: #706e6e; font-size: 14px"><i><strong>Figure 17</strong></i> Demonstrates the Generative collection's contract settings.</p>
 
-## Upload Allow List
+- **Enable Allow List Mint:** After uploading your allow list to the contract, click to enable minting for approved wallets. Toggle off to restrict access.
+- **Allow List:** Choose the allow list for the collection
+- **Public Mint Start Time:** Set when the public can start minting.
+- **Allow List Price:** Set the price per token for those on the allow list.
+- **Public Mint Price:** Set the price for public minting.
+- **Allow List Max Per Address:** Set the maximum tokens an approved address can mint.
+- **Max Per Address:** Choose the limit of tokens for each wallet.
+- **Base URI:** The primary web address for digital collectibles, where specific item details can be accessed by adding its unique number to the end.
+- **Withdraw:** Collect your share of ETH from the contract balance at any given time.
 
-Use this button to upload your list. Currently the allow list does not automatically upload along with the contract. Therefore, you must interact with this feature to enable those wallets on the allow list to perform minting.
+**Note:** After entering each detail, click "Update" to save the information.
 
-## Enable/Disable Allow List Mint
+### Open Edition's Contract Managament 
 
-After uploading your allow list to your contract, you can click this button to enable minting for the allowed wallets. If needed, you can disable it later to close access again. 
+### Uploading Image
 
-## Enable/Disable Public Mint
+After a successful deployment, you will be immediately directed to a dedicated page for managing your contract.
 
-Toggle this to open minting to anyone.
+1. Here, you can choose to upload your art on-chain. If you prefer off-chain, select "Skip Onchain Upload".
+2. After uploading, a message will display with an image preview, size, and estimated upload cost. 
+3. Click "Upload File" and confirm (See Figure 18).
 
-## Allow List Price
+![Figure18.png](./assets/Figure18.png)
+<p style="color: #706e6e; font-size: 14px"><i><strong>Figure 18</strong></i> Demonstrates the message that appears when uploading the art where to upload the image.</p>
 
-Controls the allow list price per token to be minted.
+**Note:** Due to size limitations on the blockchain, the app breaks the image into smaller chunks for uploading. Though it's uploaded in parts, it will appear as a single image once on the blockchain. 
 
-## Allow List Max Per Address
+#### General Management
 
-This section controls the max amount of tokens a single allow list address can mint.
+Indelible Labs offers a user-friendly interface to make contract management a breeze. Here's a quick guide to the functionalities available to you:
 
-## Mint
+#### After Uploading Your Image:
+You will be able to choose your contract settings (See Figure 19).
 
-This features allows you to exclusively mint from the contract. There are several reasons you might want to choose this option, such as airdropping, minting the first N number of tokens, or simply seeing your art on the mainnet first.
+![Figure19.png](./assets/Figure19.png)
+<p style="color: #706e6e; font-size: 14px"><i><strong>Figure 19</strong></i> Demonstrates the Open Edition collection's contract settings.</p>
 
-## Withdraw
+- **Enable Allow List Mint:** After uploading your allow list to the contract, click to enable minting for approved wallets. Toggle off to restrict access.
+- **Allow List:** Choose the allow list for the collection
+- **Image URL:** Upload your art here if it is ***off-chain.*** If your art is an animation or video, this should be a still image representing the art. 
+- **Animation URL:** If your art is an animation or video ***and*** is off-chain, upload here.Ensure the Image URL is a still from this content to represent the token in Open Sea's listings.
+- **Public Mint Start Time:** Set when the public can start minting.
+- **Mint End Time:** Set when the public mint ends
+- **Allow List Price:** Set the price per token for those on the allow list.
+- **Public Mint Price:** Set the price for public minting.
+- **Allow List Max Per Address:** Set the maximum tokens an approved address can mint.
+- **Max Per Address:** Choose the limit of tokens for each wallet.
+- **Withdraw:** Collect your share of ETH from the contract balance at any given time.
 
-For any collection that earns ETH on mint, you can trigger the withdraw method with this button to collect your share from the contract’s available balance at any given time.
-
-## Enable Off-Chain Rendering
-
-Toggle this on to let token owners eneable off-chain rendering for their particular token. 
-
-Presently, Indelible Labs offers free hosting for the images of your collection if it is desired. Note that this is subject to change.
-
-If this feature is enabled by the owner of the token, you contract is designed to offer either the on-chain image or an off-chain URL through the `tokenURI` method. The primary purpose of enabling this feature, at this current time, is to allow the display of the NFT in Twitter PFP. 
-
-## Verify
-
-Upon deployment, the process of contract verification is automated. However, but due to our integration with various external services and APIs, successful verification is not guaranteed.
-
-In such cases, you can try verifying it again here. To check if your contract is verified by Etherscan, visit your contract on their platform and click on the contract tab. If your contract is **NOT** verified, you should see this statuts.
-
-![etherscan-unverified.png](./assets/etherscan-unverified.png)
+**Note:** After entering each detail, click "Update" to save the information.

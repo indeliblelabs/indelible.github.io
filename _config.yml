@@ -10,7 +10,7 @@ doks:
         content:
             logo:
                 text: Indelible Labs
-            copyright: Copyright &copy; 2022 - Indelible Labs LLC<br>All rights reserved.
+            copyright: Copyright &copy; 2023 - Indelible Labs LLC<br>All rights reserved.
         social_list:
             - network_name: twitter
               profile_url: 'https://twitter.com/indelible_labs'
