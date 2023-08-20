@@ -14,29 +14,51 @@ micro_nav: true
 # Page navigation
 page_nav:
     prev:
-        content: Create a Collection
+        content: Creating a Collection
         url: '/pages/create-a-collection'
     next:
-        content: Manage Your Contract
+        content: Managing Your Contract
         url: '/pages/manage-your-contract'
 ---
 
-# Deploying
+### Before Deploying
 
-This step should only be considered once you have all the information about your project saved and entirely completed to where you are ready to launch. It is highly advised to checked the “Preview” section before deploying (just an estimate on generation and outcome).
+Before deploying, review the "Preview" and "Estimates" sections (Refer to Figure 14):
 
-**The platform enforces a deployment to Ethereum testnet “Görli” for all collection before going to Ethereum mainnet.** It is also best practice to release to a testnet first, since it cannot be stressed enough that once you deploy to mainnet it is final, and if you made a mistake you cannot get your ETH back. *Görli utilizes test ETH that can be adquired easily and for free.*
+"Preview:" shows the visual result of the art.
+"Estimates:" displays the upload cost.
 
-# Testnet
+![Figure14.webp](./assets/Figure14.webp)
+<p style="color: #706e6e; font-size: 14px"><i><strong>Figure 14</strong></i> Demonstrates where to locate the "Preview" and "Estimates" button.</p>
 
-If it is the first time a collection is being released at all (both testnest and mainnet), the platform will require and enforce a deploy to testnet first. You can switch to Görli manually by clicking on your wallet on the top right of the platform and selecting “Connect to Goerli.”
+### Deploying
 
-![connect-button.png](./assets/connect-button.png)
+Only proceed with this step **after** you have completed and saved all the information about your project and are prepared to launch. 
 
-Once you have done that, you can click on the “Contracts” dropdown and select “New” to start the deployment process.
+**The platform enforces all collections to first deploy to a testnet before moving to the Ethereum mainnet.** By default, the platform uses the Goerli testnet. To change this, click on your address beside the "Feed" button at the top right, and select "Change Network."
 
-![contracts-button-in-menu.png](./assets/contracts-button-in-menu.png)
+It is essential to test first, as mistakes on the mainnet are **permanent** and could result in lost ETH.
 
-# Mainnet
+**Note:** Fortunately, all testnets utilizes test ETH or Testmatic that can be adquired easily and for free.
 
-Only after being 100% sure you should then proceed with the mainnet deployment. The good news is that the process is exactly the same for mainnet as it was for testnet.
+### Testnet
+
+Every collection's initial release, whether on testnet or mainnet, mandates a testnet deployment. 
+
+1. To connect to Gorli (the default choice, unless adjusted to another testnet as mentioned earlier), click "Contracts" at the top right of the platform.
+2. Afterward, select “New” to start the deployment process (See Figure 15).
+
+![Figure15.webp](./assets/Figure15.webp)
+<p style="color: #706e6e; font-size: 14px"><i><strong>Figure 15</strong></i> Demonstrates where to locate the "Contracts" dropdown in order to start the deployment process.</p>
+
+### Mainnet
+
+Only move forward to mainnet deployment when you are entirely confident in your collection. Once deployed to the mainnet, it becomes **permanent and unchangeable.** The good news is that the process is exactly the same for mainnet as it was for testnet.
+
+### Important Recap of Deployment:
+
+1. Firstly, deploy to the testnet. If you do not have a testnet, you'll need to set one up. 
+2. Once deployed to testnet, you can proceed to deploy on the mainnet. It is crucial to note that you **cannot make changes after taking this step.** Any modification will require a fresh testnet deployment.
+    - This measure ensures consistency between what is deployed on the testnet and the mainnet, minimizing mistakes.
+3. Once your collection is deployed to the mainnet, it is final. The entire collection becomes locked, preventing any further edits.
+    - If you wish to make changes and redeploy to the mainnet, clone the original collection in the Indelible Labs app, make the necessary tweaks, and then redeploy.
