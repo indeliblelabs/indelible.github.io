@@ -147,14 +147,14 @@ When withdrawing earnings, the contract will automatically distribute ETH percen
 
 ### Charity
 
-Under the "Allow List" settings, find the "Recipients" button. Then click “New +” next to the “Allow List” title in the section’s top right corner (See Figure x)
+Under the "Allow List" settings, find the "Recipients" button. Then click “New +” next to the “Allow List” title in the section’s top right corner.
 
 This feature is powered by [The Giving Block](https://thegivingblock.com/)
 
 Easily allocate a portion or all of your earnings to charity within the recipient settings. To do this: 
 1. Click "Add Charity" next to the “Recipients” title in the section’s top right corner (See Figure 8). 
 2. Search amongst 1674 organizations for your preferred organization
-3. Select "Add", and specify the percentage you wish to donate.
+3. Select "Add" and specify the percentage you wish to donate.
 
 ![Figure8.webp](./assets/Figure8.webp)
 <p style="color: #706e6e; font-size: 14px"> <i><strong>Figure 8</strong> </i>Demonstrates where to locate the "Add Charity" button.</p>
@@ -170,7 +170,7 @@ Use this section to upload a profile and banner image for your collection. The p
 
 
 ![Figure9.png](./assets/Figure9.png)
-<p style="color: #706e6e; font-size: 14px"> <i><strong>Figure 9</strong> </i>Demonstrates the "Assets Section" for an Open Edition collection. The options presented are: "Settings" and "Contracts".</p>
+<p style="color: #706e6e; font-size: 14px"> <i><strong>Figure 9</strong> </i>Demonstrates the "Assets Section" for a collection.</p>
 
 ## Creating A Generative Colletion
 
@@ -184,10 +184,10 @@ Use this section to upload a profile and banner image for your collection. The p
 - Layers: Are the categories or components of the artwork.
 - Traits: Are specific attributes or items within those categories.
 
-For example, if we look at any [OCK NFT](https://opensea.io/collection/onchainkevin) and look at the properties section, we see an image similar to Figure 10 (See Figure 11).
+For example, if we look at any [OCK NFT](https://opensea.io/collection/onchainkevin) and look at the properties section, we see an image similar to the one below (See Figure 11).
 
 ![Figure11.webp](./assets/Figure11.webp)
-<p style="color: #706e6e; font-size: 14px"> <i><strong>Figure 11</strong> </i>Demonstrates a sample NFT and its the layers and traits.</p>
+<p style="color: #706e6e; font-size: 14px"> <i><strong>Figure 11</strong> </i>Demonstrates a sample NFT and its layers and traits.</p>
 
 - The **Layers** include: background, eyes, face, head, lasers, mouth, nose, shirt, and skin.
 - The **Traits** specify: gray, beedy bold, glasses red, brain full, blue, tongue out, downturned, gray, and green.
