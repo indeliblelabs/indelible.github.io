@@ -59,7 +59,7 @@ You will be able to choose your contract settings (See Figure 17).
 - **Public Mint Price:** Set the price for public minting.
 - **Allow List Max Per Address:** Set the maximum tokens an approved address can mint.
 - **Max Per Address:** Choose the limit of tokens for each wallet.
-- **Base URI:** The primary web address for digital collectibles, where specific item details can be accessed by adding its unique number to the end.
+- **Base URI:** The primary web address for off-chain rendering.
 - **Withdraw:** Collect your share of ETH from the contract balance at any given time.
 
 **Note:** After entering each detail, click "Update" to save the information.
